@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-manrope text-[14px] font-medium pt-20 tracking-wide
+}
+
+p {
+  @apply opacity-70 leading-relaxed
+}
+
+.button-style {
+  @apply bg-black text-white w-[10rem] hover:gap-x-8 transition-all duration-500 cursor-pointer py-3 rounded-full flex justify-center items-center gap-x-2 text-[12px]
+}
+
